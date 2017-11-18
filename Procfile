@@ -1,1 +1,1 @@
-web: python ams_interact.py
+web: python spa_keywords.py
