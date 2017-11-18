@@ -1,6 +1,6 @@
 from spyre import server
 import pandas as pd
-
+import os
 import US_keywords, UK_keywords, DE_keywords, FR_keywords, IT_keywords, ES_keywords, JP_keywords
 
 
@@ -87,4 +87,4 @@ class Keywords(server.App):
         return df
 
 app = Keywords()
-app.launch(host='0.0.0.0',port=8000)
+app.launch(host='0.0.0.0', port=int(os.environ.get('PORT', '5001')))
