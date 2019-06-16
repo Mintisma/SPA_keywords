@@ -1,3 +1,8 @@
-pandas
+scrapy
 requests
-DataSpyre
+bs4
+dataspyre
+pandas
+numpy
+matplotlib
+seaborn
